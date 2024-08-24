@@ -59,4 +59,4 @@ def predict():
 
 # Start the Flask server
 if __name__ == "__main__":
-    app.run(debug=True, use_reloader=False)
+    app.run(host='192.168.0.129', port=3455, debug=True, use_reloader=False) #Change the Host to ur local device
